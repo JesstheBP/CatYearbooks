@@ -1,0 +1,83 @@
+body {
+		background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/70df9491-e338-4869-8d13-06bb1fa30522/d7iwvfi-0e74ab7f-c86c-4edf-b3fc-2268615cb0be.png");
+	background-repeat: repeat-y;
+	}
+		
+
+  .container {
+    font-size: 1.5em;
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 12px;
+    grid-template-areas:
+      "advert header"
+      "advert content"
+      "advert footer";
+  }
+  .header {
+    background: LightSkyBlue;
+    grid-area: header;
+  }
+  
+  .navbar {
+  width: 100%;
+  background-color: green;
+  overflow: auto;
+}
+.seo {
+  color: white;
+}
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+  
+  
+  .adBox {
+    background: LightSalmon;
+    grid-area: advert;
+  }
+  
+  .content {
+    background: PaleTurquoise;
+    grid-area: content;
+    display: grid;
+    grid-template-columns: auto 1fr;
+   
+  }
+  
+  .footer {
+    background: lightpink;
+    grid-area: footer;
+  }
+  
+  .itemOne {
+    background: PaleGreen;
+  }
+  
+  .itemTwo {
+    background: BlanchedAlmond;
+  }
+  
