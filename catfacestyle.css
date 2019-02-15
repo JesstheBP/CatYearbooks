@@ -24,7 +24,7 @@ body {
   
   .navbar {
   width: 100%;
-  background-color: green;
+  background-color: PaleGreen;
   overflow: auto;
 }
 .seo {
@@ -56,7 +56,7 @@ body {
   
   
   .adBox {
-    background: LightSalmon;
+    background: lightpink;
     grid-area: advert;
   }
   
