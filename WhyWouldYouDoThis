@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+<html lang="en-US">
+<meta charset="UTF-8"/>
+<meta name="description" content="An Explanation for a bad and noindexed website."/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+
+<body>
+<p> I did this so we could more easily teach a "what not to do." </p>
+
+<p> This is a link to <a href="https://www.amazon.com/dp/B07NSG5XJQ">my book</a> so it can be crawled.</p>
+
+</body>
+
+</html>
